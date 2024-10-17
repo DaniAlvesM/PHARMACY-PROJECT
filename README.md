@@ -1,4 +1,4 @@
-**ENGLESH**
+**ENGLISH**
 
 In this data analysis project, I decided to recreate the sales and customer/vendor registration system for a pharmacy. The system would start with a Python project using the Pandas library to create a table where the registrations of medications, their codes, and stock quantities would be inserted. Then, we would use a second table for customer registration and verification, recording their CPF (Brazilian ID number), names, ages, genders, and cities.
 
