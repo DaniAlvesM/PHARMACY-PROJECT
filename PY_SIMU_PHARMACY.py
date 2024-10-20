@@ -6,20 +6,20 @@ print("--- TABELA DE MEDICAMENTOS ---")
 print()
 
 # Carregar a planilha de medicamentos
-file_path_medicamentos = r'C:\Users\Pichau\Desktop\PROJETO FARMACO\TB_CADASTRO_MEDICAMENTOS.xlsx'
+file_path_medicamentos = r'C:\Users\Pichau\Desktop\PHARMACY PROJECT\TB_CADASTRO_MEDICAMENTOS.xlsx'
 tb_medicamentos = pd.read_excel(file_path_medicamentos, engine='openpyxl')
 
 
 # Carregar a tabela de vendedores
-file_path_vendedores = r'C:\Users\Pichau\Desktop\PROJETO FARMACO\TB_CADASTRO_VENDEDOR.xlsx'
+file_path_vendedores = r'C:\Users\Pichau\Desktop\PHARMACY PROJECT\TB_CADASTRO_VENDEDOR.xlsx'
 tb_vendedores = pd.read_excel(file_path_vendedores, engine='openpyxl')
 
 # Carregar a planilha de clientes
-file_path_clientes = r'C:\Users\Pichau\Desktop\PROJETO FARMACO\TB_CADASTRO_CLIENTE.xlsx'
+file_path_clientes = r'C:\Users\Pichau\Desktop\PHARMACY PROJECT\TB_CADASTRO_CLIENTE.xlsx'
 tb_cliente = pd.read_excel(file_path_clientes, engine='openpyxl')
 
 # Carregar a planilha de vendas
-file_path_vendas = r'C:\Users\Pichau\Desktop\PROJETO FARMACO\TB_CADASTRO_VENDAS.xlsx'
+file_path_vendas = r'C:\Users\Pichau\Desktop\PHARMACY PROJECT\TB_CADASTRO_VENDAS.xlsx'
 tb_vendas = pd.read_excel(file_path_vendas, engine='openpyxl')
 
 # Verificar a quantidade de linhas e colunas lidas
